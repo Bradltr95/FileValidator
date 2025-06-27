@@ -1,6 +1,9 @@
 # File Validator
 This project allows you to make a request to an API endpoint and validate the response with a JSON file.
-It is designed to be a no-code/low-code solution to API testing. 
+It is designed to be a no-code/low-code solution to API testing. It will make the comparison between the request
+response and the expected response.
+
+Since most responses come back as JSON and XML these will be the main file types to compare against.
 ### How To Get Started
 Open the sample .csv file under src/main/resources/validators called
 sampleValidator.csv. 
