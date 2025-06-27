@@ -18,6 +18,12 @@ There are 3 fields total. The idea behind the csv is as follows.
 - Field 2: A blank field with a place to add a description about the test.
 - Field 3: The name of the file with the expected response. 
 
-### How to Handle Dynamic Fields
-This is something we will have to consider moving forward. For now it expects
-basic, simple requests. 
+### Todo
+- Add support for dynamic fields in responses (e.g., timestamps, IDs). Use placeholders or regex patterns to handle these cases.
+- Provide detailed error messages when validation fails, highlighting mismatched fields.
+- Extend support to other formats like YAML or plain text for broader use cases.
+- Add support for API authentication (e.g., API keys, OAuth) to test secured endpoints.
+- Integrate with CI/CD pipelines to automate API testing
+- Add validation for the CSV file itself to ensure proper formatting and required fields.
+- FUTURE VISION: Consider building a simple UI for non-technical users to upload CSV files and view results.
+- Add support for batch testing multiple APIs simultaneously. Possibly offering some type of XML setup file instead of a .csv
